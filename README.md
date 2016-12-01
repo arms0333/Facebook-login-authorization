@@ -1,0 +1,2 @@
+# ngCordova
+hybrid app
