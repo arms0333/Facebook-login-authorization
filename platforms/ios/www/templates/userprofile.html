@@ -1,0 +1,15 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Logout</h1>
+    <!--<h2>{{profileData.name}}</h2>-->
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    {{profileData.name}}
+        <label class="item">
+        <button class="button button-block button-positive" ng-click="startLogout()">Logout</button>
+        </label>
+  </ion-content>
+</ion-modal-view>
